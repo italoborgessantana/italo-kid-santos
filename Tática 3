@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Futebol Tático com Ítalo</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #f4f4f4; color: #333; line-height: 1.6; }
+    header { background: #0066cc; color: white; padding: 30px 20px; text-align: center; }
+    nav ul { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; margin-top: 10px; }
+    nav ul li { margin: 0 15px; }
+    nav ul li a { color: white; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+    nav ul li a:hover { color: #ffcc00; }
+    section { padding: 50px 20px; max-width: 1200px; margin: 30px auto; background: white; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+    h2 { color: #0066cc; margin-bottom: 20px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 25px; }
+    .card { background: #e6f0ff; padding: 20px; border-radius: 12px; transition: transform 0.3s, box-shadow 0.3s; }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+    .card img { max-width: 100%; border-radius: 8px; margin-bottom: 10px; }
+    ul { margin-top: 15px; list-style: inside square; }
+    footer { background: #333; color: white; text-align: center; padding: 25px 0; margin-top: 30px; }
+    footer a { color: #ffcc00; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Futebol Tático com Ítalo</h1>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#taticas">Táticas</a></li>
+            <li><a href="#esquemas">Esquemas</a></li>
+            <li><a href="#decisoes">Decisões</a></li>
+            <li><a href="#treinos">Treinos</a></li>
+            <li><a href="#conhecimentos">Conhecimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Olá! Sou Ítalo Borges Santana, apaixonado por futebol e especialista em táticas e estratégias de jogo. Estudo cada detalhe das partidas, desde posicionamento defensivo até transições ofensivas rápidas. Aqui compartilho minhas análises, treinos e filosofia de futebol para todos que querem entender o jogo de forma profunda e prática.</p>
+</section>
+
+<section id="taticas">
+    <h2>Minhas Táticas</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Ataque Rápido</h3>
+            <p>Priorizo transições rápidas para explorar defesas mal posicionadas. Exemplo: recuperar a bola no campo de defesa e lançar imediatamente o atacante em profundidade.</p>
+        </div>
+        <div class="card">
+            <h3>Defesa Compacta</h3>
+            <p>Organizo o time para reduzir espaços, obrigando o adversário a jogar pelos flancos e facilitando a recuperação da bola. Ideal para neutralizar equipes mais técnicas.</p>
+        </div>
+        <div class="card">
+            <h3>Posse de Bola</h3>
+            <p>Controle total do ritmo do jogo. Usada para manter a bola, desgastar o adversário e criar oportunidades com paciência. Exige passes precisos e movimentação constante.</p>
+        </div>
+        <div class="card">
+            <h3>Contra-Ataque Letal</h3>
+            <p>Exploração imediata de espaços, aproveitando velocidade e inteligência ofensiva. Ideal contra equipes que pressionam muito no ataque.</p>
+        </div>
+    </div>
+</section>
+
+<section id="esquemas">
+    <h2>Esquemas Táticos</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>4-4-2</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Formation_4-4-2.svg" alt="4-4-2">
+            <p>Clássico e equilibrado. Defesa sólida, meio-campo organizado e dois atacantes para finalizar as jogadas.</p>
+        </div>
+        <div class="card">
+            <h3>4-3-3</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Formation_4-3-3.svg" alt="4-3-3">
+            <p>Ofensivo e moderno. Favorece posse de bola e movimentações rápidas pelos flancos, ideal para equipes técnicas.</p>
+        </div>
+        <div class="card">
+            <h3>3-5-2</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Formation_3-5-2.svg" alt="3-5-2">
+            <p>Pressão intensa no meio, liberdade para alas avançarem, ótimo para equipes versáteis e com laterais fortes.</p>
+        </div>
+        <div class="card">
+            <h3>5-3-2</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Formation_5-3-2.svg" alt="5-3-2">
+            <p>Defensivo e seguro, ideal contra adversários fortes. Permite contra-ataques rápidos com dois atacantes de referência.</p>
+        </div>
+    </div>
+</section>
+
+<section id="decisoes">
+    <h2>Exemplos de Decisões em Campo</h2>
+    <ul>
+        <li>Escolher se um volante deve ir ao ataque ou manter a posição defensiva dependendo do risco do adversário.</li>
+        <li>Definir quando pressionar ou recuar para evitar contra-ataques.</li>
+        <li>Decidir a distribuição de passes para jogadores mais seguros ou mais criativos conforme o momento do jogo.</li>
+        <li>Ajustes de formação durante a partida, mudando do 4-4-2 para 4-3-3 para aproveitar superioridade numérica no meio.</li>
+    </ul>
+</section>
+
+<section id="treinos">
+    <h2>Treinos & Dicas</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Treino de Finalização</h3>
+            <p>Exercícios de precisão e velocidade de chute, incluindo finalizações de primeira e chutes de fora da área.</p>
+        </div>
+        <div class="card">
+            <h3>Controle de Bola</h3>
+            <p>Trabalhar domínio, passes curtos e longos, dribles em velocidade e manutenção da posse sob pressão.</p>
+        </div>
+        <div class="card">
+            <h3>Preparo Físico</h3>
+            <p>Resistência, explosão e velocidade. Treinos de alta intensidade para manter rendimento durante toda a partida.</p>
+        </div>
+        <div class="card">
+            <h3>Análise de Partida</h3>
