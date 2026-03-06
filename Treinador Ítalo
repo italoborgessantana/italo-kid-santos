@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol Tático com Ítalo</title>
+    <style>
+        /* Reset básico */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+        body { background-color: #f0f0f0; color: #333; line-height: 1.6; }
+
+        header {
+            background-color: #0066cc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #0066cc;
+            margin-bottom: 20px;
+        }
+
+        .tactics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .tactic-card {
+            background-color: #e6f0ff;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .tactic-card:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Futebol Tático com Ítalo</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#taticas">Minhas Táticas</a></li>
+                <li><a href="#conhecimentos">Conhecimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou Ítalo, apaixonado por futebol e especialista em estratégias de jogo. Aqui compartilho minha visão sobre táticas, esquemas e decisões inteligentes dentro de campo, sempre analisando cada situação do jogo com atenção aos detalhes.</p>
+    </section>
+
+    <section id="taticas">
+        <h2>Minhas Táticas</h2>
+        <div class="tactics">
+            <div class="tactic-card">
+                <h3>Ataque Rápido</h3>
+                <p>Priorizo transições rápidas, buscando surpreender a defesa adversária antes que se organize. Ideal para times com jogadores velozes e boa visão de jogo.</p>
+            </div>
+            <div class="tactic-card">
+                <h3>Defesa Compacta</h3>
+                <p>Organizo a equipe para reduzir espaços e obrigar o adversário a cometer erros. Excelente para neutralizar equipes mais técnicas.</p>
+            </div>
+            <div class="tactic-card">
+                <h3>Posse de Bola</h3>
+                <p>Controle total do ritmo do jogo, mantendo a bola e desgastando o adversário. Requer paciência e precisão nos passes.</p>
+            </div>
+            <div class="tactic-card">
+                <h3>Contra-Ataque Letal</h3>
+                <p>Exploração imediata dos espaços deixados pelo adversário, aproveitando velocidade e inteligência dos atacantes para finalizar rápido.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="conhecimentos">
+        <h2>Meus Conhecimentos</h2>
+        <ul>
+            <li>Análise de esquemas táticos: 4-4-2, 3-5-2, 4-3-3 e variações.</li>
+            <li>Gestão de jogadores e funções: entendendo pontos fortes e fracos de cada atleta.</li>
+            <li>Tomada de decisão em situações de pressão, dentro e fora de campo.</li>
+            <li>Estudo de adversários: antecipação de jogadas e estratégias defensivas.</li>
+            <li>Treinos personalizados e ajustes táticos durante partidas.</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Quer discutir futebol, táticas ou trocar análises de jogos? Entre em contato:</p>
+        <p>Email: <a href="mailto:italo@futeboltatico.com">italo@futeboltatico.com</a></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Ítalo Borges Santana. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
